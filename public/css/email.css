@@ -1,0 +1,11 @@
+.email_pay {
+	color: #fccb74;
+	padding: 10px;
+	background: #000;
+	font-size: 18px;
+	font-family: Helvetica, Arial, Sans-Serif;
+}
+
+body {
+	background: red;
+}

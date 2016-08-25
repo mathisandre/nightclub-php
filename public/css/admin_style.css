@@ -1,0 +1,33 @@
+#logo_navbar {
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+
+.lg {
+  height: 250px !important;
+}
+
+
+#navbar_mobile {
+  display: none;
+}
+
+#form_create_party .col-md-12 {
+  margin-bottom: 20px;
+}
+
+.form_create .col-md-12 {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #logo_navbar { 
+  	width: 90px;
+  	margin-top: -20px;
+  }
+
+  #navbar_mobile {
+    display: block;
+  }
+}

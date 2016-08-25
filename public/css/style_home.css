@@ -1,0 +1,109 @@
+
+#content {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(75,0,130, 0.4);
+}
+
+#player {
+	-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+    filter: blur(10px);
+}
+
+#logo {
+	text-align: center;
+}
+
+#logo img {
+	width: 300px;
+}
+
+#subcontent {
+	margin-top: 50px;
+}
+
+#choice_lang {
+	width: 1000px;
+	margin: auto;
+	display: block;
+	margin-top: 0px;
+	text-align: center;
+}
+
+li {
+	font-size: 12px;
+	text-align: left;
+}
+
+#choice_lang h3 {
+	font-family: Zapfino;
+	color: #fccb74;
+	font-size: 16px;
+}
+
+#choice_lang #lang_fr, #choice_lang #lang_nl {
+	display: inline-block;
+	vertical-align: top;
+	width: 400px;
+	color: #ccc;
+}
+
+#choice_lang #nl_btn, #choice_lang #fr_btn {
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+}
+
+.gold_button {
+	padding: 10px;
+	background: transparent;
+	color: #fccb74;
+	font-size: 18px;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+.gold_button:hover {
+	background: #fccb74;
+	color: #000;
+}
+
+@media screen and (max-width: 1000px) {
+	#choice_lang {
+		width: 100%;
+	}
+	#choice_lang #lang_fr, #choice_lang #lang_nl {
+		width: 40%;
+	}
+	#player {
+		display: none !important;
+	}
+	
+	body {
+		background: #000;
+	}
+	
+	#content {
+		background: none;
+	}
+}
+
+@media screen and (max-width: 690px) {
+
+	#choice_lang {
+		margin-top: 60px;
+	}
+
+	#choice_lang #lang_fr, #choice_lang #lang_nl {
+		display: block;
+		margin: auto;
+		width: 100%;
+		padding-bottom: 40px;
+	}
+
+	#choice_lang #lang_fr ol, #choice_lang #lang_nl ol {
+		display: none;
+	}
+}

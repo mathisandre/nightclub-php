@@ -1,0 +1,117 @@
+.menu_dropdown > #button_top {
+	position: fixed;
+	z-index: 1200;
+	top: 50px;
+	right: 80px;
+}
+
+
+.menu_dropdown > #flags {
+	position: fixed;
+	z-index: 1200;
+	top: 50px;
+	left: 80px;
+}
+
+
+.menu_dropdown > #button_top a {
+	border-radius: 0px;
+	background-color: #ccc;
+	color: #fff;
+	font-family: Ubuntu;
+	outline: 0;
+	font-size: 16px;
+}
+
+#mainMenu {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	border-left: 1px solid #fccb74;
+	background: #000;
+	width: 40%;
+	height: 100%;
+	z-index: 1300;
+	padding: 20px;
+	display: none;
+}
+
+#mainMenu ul {
+	text-align: center;
+	margin-top: 40px;
+	list-style: none;
+}
+
+#mainMenu ul li a {
+	font-size: 24px;
+	color: #fff;
+	font-family: Ubuntu;
+	text-transform: uppercase;
+	text-decoration: none;
+	vertical-align: middle;
+	margin: 0;
+	margin-left: -45px;
+	line-height: 50px;
+	 -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#button_grey {
+	display: block;
+	margin: auto;
+	background-color: #aaa;
+    border: 2px solid #aaa;
+    width: 200px;
+    color: #fff;
+    font-family: Ubuntu;
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+
+#button_grey:hover {
+	background: transparent;
+}
+
+#mainMenu ul li a:hover {
+	color: #aaa;
+    padding-right: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#remove_menu a {
+	color: #fff;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+#flags a img {
+	width: 40px;
+}
+
+@media screen and (max-width: 650px) {
+	#mainMenu {
+		width: 100%;
+		border-left: 0px;
+	}
+
+	.menu_dropdown > #flags {
+		position: static;
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	.menu_dropdown #flags a  img {
+		width: 35px;
+	}
+
+	.menu_dropdown > #button_top { 
+		position: static;
+		text-align: center;
+		padding-top: 15px;
+	}
+}
