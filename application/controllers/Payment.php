@@ -2,8 +2,9 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Payment extends Lang {
-
-	/*
+	
+    private $stripe;
+    /*
     |--------------------------------------------------------------------------
     | Payment Controller
     |--------------------------------------------------------------------------
